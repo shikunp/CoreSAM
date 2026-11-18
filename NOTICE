@@ -1,0 +1,31 @@
+CoreSAM
+Copyright 2026 CoreSAM contributors.
+
+This distribution contains source code from the following projects.
+
+MMDetection 3.2.0
+Copyright 2018-2023 OpenMMLab. All rights reserved.
+https://github.com/open-mmlab/mmdetection
+License copy in licenses/MMDetection-LICENSE.
+
+MMPretrain 1.1.1
+Copyright (c) OpenMMLab. All rights reserved.
+https://github.com/open-mmlab/mmpretrain
+License copy in licenses/MMPretrain-LICENSE.
+
+RSPrompter
+Copyright 2018-2023 RSPrompter. All rights reserved.
+https://github.com/KyanChen/RSPrompter
+The mmdet/coresam integration is derived from RSPrompter and adapted for CoreSAM.
+License copy in licenses/RSPrompter-LICENSE.
+
+Segment Anything (SAM)
+Copyright (c) Meta Platforms, Inc. and affiliates.
+https://github.com/facebookresearch/segment-anything
+SAM is used through the external Hugging Face Transformers dependency.
+Its license is included for reference in licenses/SAM-LICENSE.
+
+Original per-file copyright and attribution statements are retained.
+CoreSAM release-preparation changes include renaming the custom module,
+repairing its imports and dataset class tuple, using portable configuration
+paths, and prioritizing the bundled packages in the documented entry points.
